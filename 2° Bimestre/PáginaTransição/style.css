@@ -1,0 +1,281 @@
+/* * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */ comando para tirar a borda do inicio da pag.
+
+body
+{
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(230, 240, 248);
+}
+
+.header
+{
+    text-align: center;
+    padding: 10px;
+    line-height: 15px;
+    background: rgb(159,40,255);
+    background: radial-gradient(circle, rgba(159,40,255,1) 0%, rgba(53,255,61,1) 100%);
+}
+
+/* .imglabrador
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    transition: all 0.5s;
+}
+
+.imglabrador:hover
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius:50%;
+}
+ */
+
+.descricao
+{
+   
+    margin-top: 10px;
+    width: 200px;
+    font-size: small;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+/* .imgdogshihtzu
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    transition: linear 0.5s;
+}
+
+.imgdogshihtzu:hover
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius:50%;
+} */
+
+.tabela-1
+{
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, rgba(159,40,255,1), rgba(53,255,61,1)) 1;
+    padding: 10px;
+    display: flexbox;
+    margin-left: 420px;
+    margin-top: -215px;
+}
+
+
+//* h1 {
+    background: linear-gradient(to right, #ff00cc, #00ccff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #ff00cc, #00ccff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 38px;
+}
+**//
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid rgb(29, 163, 112);
+    font-size: 1.2rem;
+    color: rgb(195, 121, 94);
+    cursor: pointer;
+    position: relative;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    background: rgb(29, 163, 112);
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .5s ease;
+}
+
+.btn:hover::before {
+    width: 100%;
+}
+
+.content{
+    display: flex;
+}
+
+.content-item{
+    flex: 1;
+}
+.content-item3{
+    flex: 3;
+}
+
+
+.img-labrador
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    transition: all 0.5s;
+}
+
+.img-labrador:hover
+{
+    border-radius:50%;
+}
+
+
+/*.descricao
+{
+    font-size: small;   
+    margin-right: 200px;
+    
+}*/
+
+
+.tabela
+{
+    border: 4px solid transparent;
+    /* border-image: linear-gradient(to right,  rgba(53,255,61,1), rgba(159,40,255,1)) 1; */
+    border-image: linear-gradient(to right, #c706f7, #7bff00) 1;
+    padding: 10px;
+    /* display: flexbox; */
+    /* margin-left: 420px;*/
+    margin-top: 90px; 
+}
+
+.celula
+{
+    padding: 10px;
+    text-align: center;
+}
+
+.img-dogshihtzu
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    transition: all 0.5s;
+}
+
+.img-dogshihtzu:hover
+{
+    border-radius:50%;
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
+.formulario
+{
+    padding: 1px;
+    display: inline-block;
+    margin-left: 20px;
+    width: 45%;
+}
+
+.forms
+{
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, rgb(80, 5, 116), rgb(233, 70, 97)) 1;
+}
+
+.tituloForm
+{
+    background:  linear-gradient(0deg, rgba(18,188,190,1) 0%, rgba(237,28,187,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tituloForm1
+{
+    background: linear-gradient(to right, rgb(112, 5, 50), rgb(61, 233, 61), rgb(9, 223, 230));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input
+{
+    font-size: 20px;
+}
+
+.opcoes
+{
+    margin-left: 243px;
+}
+
+button
+{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(148, 13, 130) 35%, rgb(195, 0, 255) 100%);
+    transition: background-color 0.3s step-start;
+    transition: color 0.5s ease;
+
+}
+
+button:hover
+{
+    color: rgb(200, 224, 245);
+    background-image: radial-gradient(rgba(240, 127, 240, 0.938) 50%,rgba(4, 55, 114, 0.788));
+}
+
+.button1
+{
+    background-image: radial-gradient(rgba(129, 127, 240, 0.938) 50%,rgba(8, 97, 75, 0.788));
+}
+
+.button1:hover
+{
+    color: rgb(255, 73, 194);
+    background-image: radial-gradient(rgba(127, 227, 240, 0.938) 50%,rgba(114, 4, 4, 0.788));
+}
+
+.rodape
+{
+    padding: 50px;
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,70,1) 50%, rgba(69,146,252,1) 100%);
+}
+
+.imgfilhote-labrador
+{
+    margin-left: 150px;
+    transform: rotate(15deg);
+}
+
+.imgdog-pug
+{
+    margin-left: 70px;
+    transform: rotate3d(1, 1, 1, 50deg);
+}
+
+.imgshih-tzu
+{
+    transform: rotateY(130deg);
+}
