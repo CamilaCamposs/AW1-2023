@@ -1,0 +1,52 @@
+@import url(https://fonts.google.com/);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+body
+{
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #30658480;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #30658480;
+    color: #306584;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor:default;
+}
+span {
+    margin: 10px;
+}
+
+.cssIcon{
+    animation: moveIcon 4s infinite ease-in-out;
+    color: #264de4;
+}
+
+.githubIcon{
+    color: black;
+}
+
+  @keyframes moveIcon{
+    0% {
+      transform: translate(0);
+    }
+}
+
+.imagem-coruja {
+    border-radius: 20px;
+    height: 15vh;
+  }
+
+  .imagem-coruja:active{
+    transform: translate(35vw, 150px) scale(3);
+  }
