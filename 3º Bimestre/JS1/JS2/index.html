@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p></p>
+    <script>
+
+        let nome = prompt("Digite seu nome: ")
+        let idade = prompt("Digite sua idade: ")
+        let texto = `Seu nome é ${nome} e a sua idade é ${idade}.`
+
+        const paragrafo = document.querySelector("p");
+        paragrafo.textContent = texto;
+        paragrafo.style.display = "flex"
+        paragrafo.style.justifyContent = "center"
+        paragrafo.style.color = "blue"
+        paragrafo.style.fontSize = "60px"
+    </script>
+</body>
+</html>
