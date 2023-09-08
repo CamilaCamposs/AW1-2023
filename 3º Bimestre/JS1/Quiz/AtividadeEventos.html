@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz de The Weekend</title>
+<style>
+body {
+background-color: #f0f0f0;
+font-family: Arial, sans-serif;
+}
+
+.container {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+background-color: #ffffff;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+color: #3498db;
+text-align: center;
+}
+
+.question {
+margin-bottom: 20px;
+padding: 10px;
+background-color: #ecf0f1;
+border-radius: 5px;
+}
+
+.options {
+display: flex;
+flex-direction: column;
+}
+
+.option {
+margin: 5px 0;
+}
+
+.submit-button {
+background-color: #3498db;
+color: #ffffff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.tag {
+display: none;
+margin-top: 10px;
+padding: 5px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.correct {
+background-color: #2ecc71;
+color: #ffffff;
+}
+
+.incorrect {
+background-color: #e74c3c;
+color: #ffffff;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Quiz de The Weekend</h1>
+
+<div class="question">
+<p>Pergunta 1: Em que dia nasceu o The Weekend?</p>
+<div class="options">
+<label class="option"><input type="radio" name="q1" value="3 de Outubro de 1993"> 3 de Outubro de 1993 </label>
+<label class="option"><input type="radio" name="q1" value="16 de Fevereiro de 1990"> 16 de Fevereiro de 1990</label>
+<label class="option"><input type="radio" name="q1" value="18 de Fevereiro de 1990"> 18 de Fevereiro de 1990</label>
+<label class="option"><input type="radio" name="q1" value="9 de Maio de 1994"> 9 de Maio de 1994</label>
+</div>
+<button class="submit-button" id="b1">Enviar</button>
+<span class="tag correct" id="c1">Correto!</span>
+<span class="tag incorrect" id="i1">Incorreto.</span>
+</div>
+
+<!-- Repita o mesmo padrão para as próximas questões -->
+
+<div class="question">
+<p>Pergunta 2: Qual é o nome do fandom?</p>
+<div class="options">
+<label class="option"><input type="radio" name="q2" value="Weekandas"> Weekandas</label>
+<label class="option"><input type="radio" name="q2" value="OD"> OD</label>
+<label class="option"><input type="radio" name="q2" value="Xo"> Xo</label>
+<label class="option"><input type="radio" name="q2" value="Tesfaye"> Tesfaye</label>
+</div>
+<button class="submit-button" id="b2">Enviar</button>
+<span class="tag correct" id="c2">Correto!</span>
+<span class="tag incorrect" id="i2">Incorreto.</span>
+</div>
+
+<!-- Repita o mesmo padrão para as próximas questões -->
+<div class="question">
+<p>Pergunta 3: Qual é o verdadeiro nome do The Weekend?</p>
+<div class="options">
+<label class="option"><input type="radio" name="q3" value="Notie"> Notie</label>
+<label class="option"><input type="radio" name="q3" value="Vanle"> Vanle</label>
+<label class="option"><input type="radio" name="q3" value="Abel"> Abel</label>
+<label class="option"><input type="radio" name="q3" value="Doug"> Doug</label>
+</div>
+<button class="submit-button" id="b3">Enviar</button>
+<span class="tag correct" id="c3">Correto!</span>
+<span class="tag incorrect" id="i3">Incorreto.</span>
+</div>
+
+<div class="question">
+<p>Pergunta 4: Quantos álbuns tem o The Weeknd?</p>
+<div class="options">
+<label class="option"><input type="radio" name="q4" value="2 álbuns"> 2 álbuns</label>
+<label class="option"><input type="radio" name="q4" value="4 álbuns"> 4 álbuns</label>
+<label class="option"><input type="radio" name="q4" value="6 álbuns"> 6 álbuns</label>
+<label class="option"><input type="radio" name="q4" value="8 álbuns"> 8 álbuns</label>
+</div>
+<button class="submit-button" id="b4">Enviar</button>
+<span class="tag correct" id="c4">Correto!</span>
+<span class="tag incorrect" id="i4">Incorreto.</span>
+</div>
+
+<div class="question">
+<p>Pergunta 5: Onde nasceu The Weeknd?</p>
+<div class="options">
+<label class="option"><input type="radio" name="q5" value="Jamaica"> Jamaica</label>
+<label class="option"><input type="radio" name="q5" value="Austrália"> Austrália</label>
+<label class="option"><input type="radio" name="q5" value="Canadá"> Canadá</label>
+<label class="option"><input type="radio" name="q5" value="Estados Unidos"> Estados Unidos</label>
+</div>
+<button class="submit-button" id="b5">Enviar</button>
+<span class="tag correct" id="c5">Correto!</span>
+<span class="tag incorrect" id="i5">Incorreto.</span>
+</div>
+
+
+</div>
+
+<script src="script.js">
+</script>
+</body>
+</html>
